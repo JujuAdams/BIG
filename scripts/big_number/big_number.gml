@@ -12,6 +12,10 @@ function big_number()
 
 #region Internal stuff
 
+#macro __BIG_VERSION "0.1.0"
+#macro __BIG_DATE "2020-07-15"
+show_debug_message("BIG: Welcome to BIG Integers by @jujuadams! This is version " + __BIG_VERSION + ", " + __BIG_DATE);
+
 #macro __BIG_WORD_BITS 32
 #macro __BIG_MAX_VALUE 0xffffffff
 #macro __BIG_HALF_MAX  0x80000000
