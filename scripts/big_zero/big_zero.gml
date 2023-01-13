@@ -11,7 +11,7 @@ function big_zero()
 
 #region Internal stuff
 
-#macro __BIG_VERSION "0.1.0"
+#macro __BIG_VERSION "0.2.0"
 #macro __BIG_DATE "2023-01-13"
 show_debug_message("BIG: Welcome to BIG Integers by @jujuadams! This is version " + __BIG_VERSION + ", " + __BIG_DATE);
 

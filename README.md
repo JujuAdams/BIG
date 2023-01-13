@@ -1,6 +1,6 @@
-<h1 align="center">BIG 0.1.0</h1>
+<h1 align="center">BIG 0.2.0</h1>
 
-<p align="center">BIG integer library for GameMaker Studio 2.3</p>
+<p align="center">BIG integer library for GameMaker 2022 LTS</p>
 
 <p align="center"><b>@jujuadams</b></p>
 
