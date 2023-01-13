@@ -29,8 +29,8 @@ function __big_mul_internal(_x, _x_words, _y, _y_words)
 	///   + j
 	///   + k << h
     
-	if (_x_words <= 0) return big_number();
-	if (_y_words <= 0) return big_number();
+	if (_x_words <= 0) return big_zero();
+	if (_y_words <= 0) return big_zero();
 	if ((_x_words == 1) && (_y_words == 1)) return big_from_int(int64(_x[0])*int64(_y[0]));
     
 	var _split = max(_x_words, _y_words) div 2;

@@ -3,7 +3,7 @@
 
 function big_mul_int32(_x, _int)
 {
-	var _y = big_number();
+	var _y = big_zero();
     
 	var _i = 0;
 	repeat(BIG_MAX_WORDS)

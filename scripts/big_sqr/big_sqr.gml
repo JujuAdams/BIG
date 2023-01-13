@@ -24,7 +24,7 @@ function __big_sqr_internal(_x, _words)
 	///   + j <<  h
 	///   + k
     
-	if (_words <= 0) return big_number();
+	if (_words <= 0) return big_zero();
 	if (_words == 1) return big_from_int(int64(_x[0])*int64(_x[0]));
     
 	var _split = _words div 2;

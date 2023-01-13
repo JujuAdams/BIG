@@ -4,7 +4,7 @@
 
 function big_xor(_a, _b, _out)
 {
-	var _c = big_number();
+	var _c = big_zero();
     
 	var _i = 0;
 	repeat(BIG_MAX_WORDS)

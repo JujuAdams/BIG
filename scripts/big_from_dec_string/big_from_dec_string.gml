@@ -2,7 +2,7 @@
 
 function big_from_dec_string(_string)
 {
-	var _x = big_number();
+	var _x = big_zero();
 	if (_string == "") return _x;
     
 	_x = big_add_int32(_x, real(string_char_at(_string, 1)));

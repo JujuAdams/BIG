@@ -3,7 +3,7 @@
 
 function big_sub_int32(_x, _int)
 {
-	var _y = big_number();
+	var _y = big_zero();
     
 	var _res = _x[0] + __BIG_MAX_VALUE + 1 - _int;
 	_y[@ 0] = _res & __BIG_MAX_VALUE;

@@ -8,7 +8,7 @@ function big_from_buffer(_buffer, _big_endian)
     
 	if (_big_endian)
 	{
-	    var _x = big_number();
+	    var _x = big_zero();
 	    _x = big_add_int32(_x, buffer_read(_buffer, buffer_u8));
         
 	    repeat(buffer_get_size(_buffer) - 1)
@@ -21,7 +21,7 @@ function big_from_buffer(_buffer, _big_endian)
 	{
 	    var _i = buffer_get_size(_buffer) - 1;
         
-	    var _x = big_number();
+	    var _x = big_zero();
 	    _x = big_add_int32(_x, buffer_peek(_buffer, _i, buffer_u8));
 	    --_i;
         

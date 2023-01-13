@@ -3,7 +3,7 @@
 
 function big_add_int32(_x, _int)
 {
-	var _y = big_number();
+	var _y = big_zero();
     
 	var _temp = _x[0] + _int;
 	var _carry = (_temp > __BIG_MAX_VALUE);
