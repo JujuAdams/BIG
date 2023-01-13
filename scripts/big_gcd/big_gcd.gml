@@ -5,7 +5,7 @@ function big_gcd(_a, _b)
 {
 	while(true)
 	{
-	    var _temp = big_mod(_a, _b, big_zero());
+	    var _temp = big_mod(_a, _b);
 	    if (big_is_zero(_temp)) return _b;
 	    _a = _b;
 	    _b = _temp;

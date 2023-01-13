@@ -1,12 +1,12 @@
 /// @param a
 /// @param b
-/// @param out
+/// @param [writeTo]
 
-function big_mod()
+function big_mod(_a, _b, _writeTo)
 {
-    var _a   = argument0;
-	var _b   = big_duplicate(argument1);
-	var _out = argument2;
+    __BIG_HANDLE_OUT
+    
+	_b = big_duplicate(_b);
 	var _exp = 1;
     
 	var _a_words = big_word_count(_a);

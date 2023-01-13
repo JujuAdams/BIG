@@ -1,16 +1,16 @@
 /// @param x
 /// @param modulus
 /// @param exponent
-/// @param debugIterations
+/// @param [debug=false]
 
-function big_powmod(_x, _modulus, _exponent, _debug)
+function big_powmod(_x, _modulus, _exponent, _debug = false)
 {
 	_x        = big_duplicate(_x);
 	_exponent = big_duplicate(_exponent);
     
 	var _result = big_from_int(1);
     
-	big_mod(_x, _modulus, _x);
+	big_mod(_x, _modulus, 0);
     
 	if (!_debug)
 	{

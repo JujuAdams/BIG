@@ -1,9 +1,11 @@
 /// @param a
 /// @param b
-/// @param out
+/// @param [writeTo]
 
-function big_sub(_a, _b, _out)
+function big_sub(_a, _b, _writeTo)
 {
+    __BIG_HANDLE_OUT
+    
 	var _borrow = 0;
 	var _i = 0;
 	repeat(BIG_MAX_WORDS)

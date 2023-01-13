@@ -42,13 +42,13 @@ function __big_mul_internal(_x, _x_words, _y, _y_words)
     
 	var _i = __big_mul_internal(_a, _x_words - _split, _c, _y_words - _split);
 	var _j = __big_mul_internal(_b, _split, _d, _split);
-	var _k = big_mul(big_add(_a, _b, _a),  //Reuse _a
-	                 big_add(_c, _d, _c)); //Reuse _c
-	         big_sub(_k, _i, _k);
-	         big_sub(_k, _j, _k);
+	var _k = big_mul(big_add(_a, _b, 0),  //Reuse _a
+	                 big_add(_c, _d, 0)); //Reuse _c
+	         big_sub(_k, _i, 0);
+	         big_sub(_k, _j, 0);
     
 	__big_lshift_word(_i, 2*_split);
 	__big_lshift_word(_k, _split);
     
-	return big_add(_i, big_add(_j, _k, _j), _i); //Reuse _i and _j
+	return big_add(_i, big_add(_j, _k, 0), 0); //Reuse _i and _j
 }

@@ -39,5 +39,5 @@ function __big_sqr_internal(_x, _words)
 	__big_lshift_word(_i, 2*_split);
 	__big_lshift_word(_j, _split);
     
-	return big_add(_i, big_add(_j, big_add(_j, _k, _k), _k), _i); //Reuse _i and _k
+	return big_add(_i, big_add(_j, big_add(_j, _k, 1), _k), 0); //Reuse _i and _k
 }

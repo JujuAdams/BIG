@@ -1,10 +1,10 @@
 /// @param a
 /// @param b
-/// @param out
+/// @param [writeTo]
 
-function big_or(_a, _b, _out)
+function big_or(_a, _b, _writeTo)
 {
-	var _c = big_zero();
+    __BIG_HANDLE_OUT
     
 	var _i = 0;
 	repeat(BIG_MAX_WORDS)
@@ -13,5 +13,5 @@ function big_or(_a, _b, _out)
 	    ++_i;
 	}
     
-	return _c;
+	return _out;
 }

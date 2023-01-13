@@ -1,10 +1,9 @@
 /// @param a
 /// @param b
 
-function big_div()
+function big_div(_a, _b)
 {
-    var _a = argument0;
-	var _b = big_duplicate(argument1);
+	_b = big_duplicate(_b);
     var _e = 0;
     
     var _overflow = false;
@@ -26,13 +25,13 @@ function big_div()
         _e--;
     }
     
-	var _a   = big_duplicate(_a);
+	_a = big_duplicate(_a);
 	var _out = array_create(BIG_MAX_WORDS, 0);
 	repeat(_e+1)
 	{
 	    if (big_compare(_a, _b) != BIG.LESSER) //If A is greater than or equal to B
 	    {
-	        big_sub(_a, _b, _a); //A = A - B
+	        big_sub(_a, _b, 0); //A = A - B
 	        _out[@ _e div __BIG_WORD_BITS] |= (1 << (_e mod __BIG_WORD_BITS));
 	    }
         
