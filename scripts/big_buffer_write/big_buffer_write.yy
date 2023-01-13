@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "big_to_utf8",
+  "name": "big_buffer_write",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

@@ -1,7 +1,7 @@
 /// @param buffer
-/// @param bigEndian  Most significant byte comes first
+/// @param [bigEndian=true]  Most significant byte comes first
 
-function big_from_buffer(_buffer, _big_endian)
+function big_buffer_read(_buffer, _big_endian = true)
 {
 	var _old_tell = buffer_tell(_buffer);
 	buffer_seek(_buffer, buffer_seek_start, 0);
