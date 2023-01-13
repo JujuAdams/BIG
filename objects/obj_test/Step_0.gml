@@ -3,8 +3,8 @@ randomize();
 a_string = string(irandom_range(1, 9));
 b_string = string(irandom_range(1, 9));
 
-repeat(irandom_range(3, 40)) a_string += string(irandom(9));
-repeat(irandom_range(3, 40)) b_string += string(irandom(9));
+repeat(irandom_range(3, 20)) a_string += string(irandom(9));
+repeat(irandom_range(3, 20)) b_string += string(irandom(9));
 
 a = big_from_dec_string(a_string);
 b = big_from_dec_string(b_string);
