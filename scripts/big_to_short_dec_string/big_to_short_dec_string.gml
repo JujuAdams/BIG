@@ -6,17 +6,21 @@ function big_to_short_dec_string(_x)
         "K",  //thousand
         "M",  //million
         "B",  //billion
+        "Tr", //trillion
         "Qd", //quadrillion
         "Qt", //quintillion
         "Sx", //sextillion
         "Sp", //septillion
         "Oc", //octillion
         "No", //nonillion
+        "Dc", //decillion
+        "Un", //undecillion
+        "Du", //duodecillion
+        "Td", //tredecillion
     ];
     
 	var _string = big_to_dec_string(_x);
     
-    var _t = get_timer();
     var _length = string_byte_length(_string);
     if (_length <= 3) return _length;
     
