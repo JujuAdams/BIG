@@ -67,10 +67,10 @@
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"BIG Integers","folderPath":"folders/BIG Integers.yy","order":1,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Arithmetic","folderPath":"folders/BIG Integers/Arithmetic.yy","order":3,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Converters","folderPath":"folders/BIG Integers/Converters.yy","order":2,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Int32 Operations","folderPath":"folders/BIG Integers/Int32 Operations.yy","order":4,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Logical & Bitwise","folderPath":"folders/BIG Integers/Logical & Bitwise.yy","order":5,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Arithmetic","folderPath":"folders/BIG Integers/Arithmetic.yy","order":4,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Converters","folderPath":"folders/BIG Integers/Converters.yy","order":3,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Int32 Operations","folderPath":"folders/BIG Integers/Int32 Operations.yy","order":5,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Logical & Bitwise","folderPath":"folders/BIG Integers/Logical & Bitwise.yy","order":6,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
