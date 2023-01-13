@@ -18,6 +18,7 @@
     {"id":{"name":"big_add","path":"scripts/big_add/big_add.yy",},"order":2,},
     {"id":{"name":"big_sub","path":"scripts/big_sub/big_sub.yy",},"order":3,},
     {"id":{"name":"big_mul","path":"scripts/big_mul/big_mul.yy",},"order":4,},
+    {"id":{"name":"big_zero","path":"scripts/big_zero/big_zero.yy",},"order":9,},
     {"id":{"name":"big_sqr","path":"scripts/big_sqr/big_sqr.yy",},"order":6,},
     {"id":{"name":"big_div","path":"scripts/big_div/big_div.yy",},"order":8,},
     {"id":{"name":"big_mod","path":"scripts/big_mod/big_mod.yy",},"order":9,},
