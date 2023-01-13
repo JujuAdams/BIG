@@ -34,7 +34,6 @@
     {"id":{"name":"big_is_negative","path":"scripts/big_is_negative/big_is_negative.yy",},"order":2,},
     {"id":{"name":"big_word_count","path":"scripts/big_word_count/big_word_count.yy",},"order":3,},
     {"id":{"name":"big_duplicate","path":"scripts/big_duplicate/big_duplicate.yy",},"order":4,},
-    {"id":{"name":"big_assign","path":"scripts/big_assign/big_assign.yy",},"order":5,},
     {"id":{"name":"big_or","path":"scripts/big_or/big_or.yy",},"order":6,},
     {"id":{"name":"big_and","path":"scripts/big_and/big_and.yy",},"order":7,},
     {"id":{"name":"big_xor","path":"scripts/big_xor/big_xor.yy",},"order":8,},
