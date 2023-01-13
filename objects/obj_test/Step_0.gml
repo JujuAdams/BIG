@@ -26,7 +26,7 @@ if ((a_string != d_string) || (b_string != e_string))
 
 count++;
 
-if (current_time - last_output > 10000)
+if (current_time - last_output > 1000)
 {
     show_debug_message("time=" + string(current_time) + ", i=" + string(count) + ", t=" + string(_t) + ":    " + a_string + "  *  " + b_string + "  ===  " + c_string + " === " + d_string + "  *  " + e_string);
     last_output = current_time;
