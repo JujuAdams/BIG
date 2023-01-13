@@ -26,6 +26,7 @@
     {"id":{"name":"big_gcd","path":"scripts/big_gcd/big_gcd.yy",},"order":10,},
     {"id":{"name":"big_invmod","path":"scripts/big_invmod/big_invmod.yy",},"order":11,},
     {"id":{"name":"big_powmod","path":"scripts/big_powmod/big_powmod.yy",},"order":12,},
+    {"id":{"name":"big_copy_to","path":"scripts/big_copy_to/big_copy_to.yy",},"order":11,},
     {"id":{"name":"big_add_int32","path":"scripts/big_add_int32/big_add_int32.yy",},"order":0,},
     {"id":{"name":"big_sub_int32","path":"scripts/big_sub_int32/big_sub_int32.yy",},"order":1,},
     {"id":{"name":"big_mul_int32","path":"scripts/big_mul_int32/big_mul_int32.yy",},"order":2,},
