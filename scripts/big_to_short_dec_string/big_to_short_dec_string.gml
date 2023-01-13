@@ -3,26 +3,26 @@
 function big_to_short_dec_string(_x)
 {
     static _suffix_array = [
-        "K",  //thousand
-        "M",  //million
-        "B",  //billion
-        "Tr", //trillion
-        "Qd", //quadrillion
-        "Qt", //quintillion
-        "Sx", //sextillion
-        "Sp", //septillion
-        "Oc", //octillion
-        "No", //nonillion
-        "Dc", //decillion
-        "Un", //undecillion
-        "Du", //duodecillion
-        "Td", //tredecillion
+        " K",  //thousand
+        " M",  //million
+        " B",  //billion
+        " T", //trillion
+        " Qd", //quadrillion
+        " Qt", //quintillion
+        " Sx", //sextillion
+        " Sp", //septillion
+        " Oc", //octillion
+        " No", //nonillion
+        " Dc", //decillion
+        " Un", //undecillion
+        " Du", //duodecillion
+        " Td", //tredecillion
     ];
     
 	var _string = big_to_dec_string(_x);
     
     var _length = string_byte_length(_string);
-    if (_length <= 3) return _length;
+    if (_length <= 3) return _string;
     
     _string = string_copy(_string, 1, 3);
     
