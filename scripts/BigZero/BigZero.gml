@@ -13,8 +13,8 @@ function BigZero()
 
 #region Internal stuff
 
-#macro __BIG_VERSION "0.2.0"
-#macro __BIG_DATE "2023-01-13"
+#macro __BIG_VERSION "0.3.0"
+#macro __BIG_DATE "2023-01-14"
 show_debug_message("BIG: Welcome to BIG Integers by @jujuadams! This is version " + __BIG_VERSION + ", " + __BIG_DATE);
 
 #macro __BIG_WORD_BITS 32
