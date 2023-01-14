@@ -1,4 +1,4 @@
-last_output = -999999999;
+lastOutput = -999999999;
 count = 0;
 
 show_debug_message(BigToShortDecString(BigFromDecString("0")));
