@@ -15,6 +15,7 @@
     {"id":{"name":"BigInc","path":"scripts/BigInc/BigInc.yy",},"order":1,},
     {"id":{"name":"BigAdd","path":"scripts/BigAdd/BigAdd.yy",},"order":2,},
     {"id":{"name":"BigSub","path":"scripts/BigSub/BigSub.yy",},"order":3,},
+    {"id":{"name":"BigClearToZero","path":"scripts/BigClearToZero/BigClearToZero.yy",},"order":13,},
     {"id":{"name":"BigMul","path":"scripts/BigMul/BigMul.yy",},"order":4,},
     {"id":{"name":"BigZero","path":"scripts/BigZero/BigZero.yy",},"order":0,},
     {"id":{"name":"BigSqr","path":"scripts/BigSqr/BigSqr.yy",},"order":6,},
