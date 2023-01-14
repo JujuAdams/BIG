@@ -4,7 +4,7 @@
   "name": "Windows",
   "option_windows_display_name": "BIG Integers",
   "option_windows_executable_name": "${project_name}",
-  "option_windows_version": "0.2.0.0",
+  "option_windows_version": "0.3.0.0",
   "option_windows_company_info": "@jujuadams",
   "option_windows_product_info": "BIG Integers",
   "option_windows_copyright_info": "@jujuadams (c) 2023",
