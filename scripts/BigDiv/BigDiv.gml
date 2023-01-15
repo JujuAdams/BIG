@@ -1,11 +1,15 @@
 /// @param a
 /// @param b
+/// @param [writeTo]
 
-function BigDiv(_a, _b)
+function BigDiv(_a, _b, _writeTo = undefined)
 {
-	_b = BigDuplicate(_b);
-    var _e = 0;
+    __BIG_HANDLE_RESULT_PRE
     
+	_a = BigDuplicate(_a);
+	_b = BigDuplicate(_b);
+    
+    var _e = 0;
     var _overflow = false;
 	while(BigCompare(_b, _a) != BIG.GREATER) //Repeat until B is larger than A
 	{
@@ -25,8 +29,6 @@ function BigDiv(_a, _b)
         _e--;
     }
     
-	_a = BigDuplicate(_a);
-	var _out = array_create(BIG_MAX_WORDS, 0);
 	repeat(_e+1)
 	{
 	    if (BigCompare(_a, _b) != BIG.LESSER) //If A is greater than or equal to B

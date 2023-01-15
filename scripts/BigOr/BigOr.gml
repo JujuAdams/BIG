@@ -4,7 +4,7 @@
 
 function BigOr(_a, _b, _writeTo)
 {
-    __BIG_HANDLE_OUT
+    __BIG_HANDLE_RESULT_PRE
     
 	var _i = 0;
 	repeat(BIG_MAX_WORDS)

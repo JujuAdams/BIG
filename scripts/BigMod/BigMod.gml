@@ -4,7 +4,7 @@
 
 function BigMod(_a, _b, _writeTo)
 {
-    __BIG_HANDLE_OUT
+    __BIG_HANDLE_RESULT_PRE
     
 	_b = BigDuplicate(_b);
 	var _exp = 1;

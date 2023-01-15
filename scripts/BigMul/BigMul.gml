@@ -1,10 +1,13 @@
 /// @param x
 /// @param y
+/// @param [writeTo]
 
-function BigMul(_x, _y)
+function BigMul(_x, _y, _writeTo = undefined)
 {
-	return __BigMulInternal(_x, BigWordCount(_x),
-	                        _y, BigWordCount(_y));
+	var _result = __BigMulInternal(_x, BigWordCount(_x),
+	                               _y, BigWordCount(_y));
+    
+    __BIG_HANDLE_RESULT_POST
 }
 
 /// @param x

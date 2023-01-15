@@ -2,7 +2,9 @@
 
 function BigSqr(_x)
 {
-	return __BigSqrInternal(_x, BigWordCount(_x));
+	var _result = __BigSqrInternal(_x, BigWordCount(_x));
+    
+    __BIG_HANDLE_RESULT_POST
 }
 
 /// @param x

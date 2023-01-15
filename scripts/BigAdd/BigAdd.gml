@@ -4,7 +4,7 @@
 
 function BigAdd(_a, _b, _writeTo)
 {
-    __BIG_HANDLE_OUT
+    __BIG_HANDLE_RESULT_PRE
     
 	var _temp = 0;
 	var _i = 0;
