@@ -3,6 +3,8 @@
 
 function BigInvMod(_a, _modulo)
 {
+    //TODO - Optimsise
+    
 	var _i = is_array(_modulo)? _modulo : BigFromInt(_modulo);
 	var _v = BigZero();
 	var _d = BigFromInt(1);

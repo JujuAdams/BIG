@@ -5,6 +5,8 @@
 
 function BigPowMod(_x, _modulus, _exponent, _debug = false)
 {
+    //TODO - Optimsise
+    
 	_x        = BigDuplicate(_x);
 	_exponent = BigDuplicate(_exponent);
     
