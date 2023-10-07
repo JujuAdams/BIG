@@ -1,4 +1,6 @@
- /// @param source
+/// Copies a BIG number from one container to another
+/// 
+/// @param source
 /// @param destination
 
 function BigCopyTo(_source, _destination)

@@ -1,3 +1,5 @@
+/// Subtracts a simple decimal from a BIG number and returns the result
+/// 
 /// @param x
 /// @param int32
 

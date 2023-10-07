@@ -1,6 +1,9 @@
-/// Returns: BIG.GREATER for a >  b
-///          BIG.LESSER  for a <  b
-///          BIG.EQUAL   for a == b
+/// Comapares two BIG numbers and returns the result
+/// 
+/// This function will return one of the following:
+///   BIG.GREATER = "a" is greater than "b"
+///   BIG.EQUAL   = "a" is equal to b"
+///   BIG.LESSER  = "a" is lesser than b"
 ///
 /// @param a
 /// @param b

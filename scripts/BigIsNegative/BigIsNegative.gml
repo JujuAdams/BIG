@@ -1,3 +1,5 @@
+/// Returns if a BIG number is negative
+/// 
 /// @param x
 
 function BigIsNegative(_x)

@@ -1,3 +1,5 @@
+/// Multiplies two BIG numbers and returns the result
+/// 
 /// @param x
 /// @param y
 /// @param [writeTo]

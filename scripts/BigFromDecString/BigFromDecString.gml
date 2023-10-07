@@ -1,3 +1,5 @@
+/// Generates a BIG number from a string of decimal digits
+/// 
 /// @param string
 
 function BigFromDecString(_string)

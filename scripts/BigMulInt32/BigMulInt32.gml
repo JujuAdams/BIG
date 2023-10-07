@@ -1,3 +1,5 @@
+/// Multiplies a BIG number by a simple integer and returns the result
+/// 
 /// @param x
 /// @param int32
 

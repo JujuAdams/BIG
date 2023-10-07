@@ -1,3 +1,5 @@
+/// Returns the greatest common divisor of "a" and "b", both BIG numbers
+/// 
 /// @param a
 /// @param b
 

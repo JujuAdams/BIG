@@ -1,6 +1,9 @@
+/// Multiplies a BIG number by itself and returns the result
+/// 
 /// @param x
+/// @param [writeTo]
 
-function BigSqr(_x)
+function BigSqr(_x, _writeTo = undefined)
 {
 	var _result = __BigSqrInternal(_x, BigWordCount(_x));
     

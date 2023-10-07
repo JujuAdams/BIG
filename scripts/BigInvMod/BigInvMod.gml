@@ -1,3 +1,5 @@
+/// Returns the inverse modulo of a BIG number and returns the result
+/// 
 /// @param x
 /// @param modulo
 

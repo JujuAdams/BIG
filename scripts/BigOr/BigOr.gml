@@ -1,3 +1,5 @@
+/// Performs a bitwise OR operation between two BIG numbers and returns the result
+/// 
 /// @param a
 /// @param b
 /// @param [writeTo]

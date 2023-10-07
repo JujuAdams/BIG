@@ -1,3 +1,5 @@
+/// Returns the number of words in a BIG container that contain a value
+/// 
 /// @param x
 
 function BigWordCount(_x)

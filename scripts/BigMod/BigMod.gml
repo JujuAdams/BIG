@@ -1,3 +1,5 @@
+/// Modulos "a" by "b", both BIG numbers, and returns the result
+/// 
 /// @param a
 /// @param b
 /// @param [writeTo]

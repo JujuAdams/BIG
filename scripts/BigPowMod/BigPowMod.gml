@@ -1,3 +1,5 @@
+/// Raises a BIG number to an exponent within a modulo arithmetic
+/// 
 /// @param x
 /// @param modulus
 /// @param exponent
