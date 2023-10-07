@@ -1,4 +1,7 @@
-//// @param x
+/// Generates a BIG number from an integer
+/// 
+/// @param x
+
 function BigFromInt(_x)
 {
 	var _y = BigZero();

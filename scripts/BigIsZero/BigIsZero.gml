@@ -1,3 +1,5 @@
+/// Returns if a BIG number is exactly zero
+/// 
 /// @param x
 
 function BigIsZero(_x)

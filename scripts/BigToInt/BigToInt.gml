@@ -1,4 +1,6 @@
-//// @param x
+/// Converts a BIG number to an integer
+/// 
+/// @param x
 
 function BigToInt(_x)
 {

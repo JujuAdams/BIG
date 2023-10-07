@@ -1,3 +1,5 @@
+/// Raises a BIG number to an exponent within a modulo arithmetic
+/// 
 /// @param x
 /// @param modulus
 /// @param exponent
@@ -5,6 +7,8 @@
 
 function BigPowMod(_x, _modulus, _exponent, _debug = false)
 {
+    //TODO - Optimsise
+    
 	_x        = BigDuplicate(_x);
 	_exponent = BigDuplicate(_exponent);
     

@@ -1,3 +1,5 @@
+/// Duplicates a BIG number
+/// 
 /// @param x
 
 function BigDuplicate(_x)

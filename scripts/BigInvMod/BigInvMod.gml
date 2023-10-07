@@ -1,8 +1,12 @@
+/// Returns the inverse modulo of a BIG number and returns the result
+/// 
 /// @param x
 /// @param modulo
 
 function BigInvMod(_a, _modulo)
 {
+    //TODO - Optimsise
+    
 	var _i = is_array(_modulo)? _modulo : BigFromInt(_modulo);
 	var _v = BigZero();
 	var _d = BigFromInt(1);

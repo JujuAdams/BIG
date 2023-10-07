@@ -1,3 +1,5 @@
+/// Converts a BIG number to a string of decimal digits
+/// 
 /// @param x
 
 function BigToDecString(_x)

@@ -1,3 +1,5 @@
+/// Generates a BIG number from the contents of a buffer
+/// 
 /// @param buffer
 /// @param [bigEndian=true]  Most significant byte comes first
 

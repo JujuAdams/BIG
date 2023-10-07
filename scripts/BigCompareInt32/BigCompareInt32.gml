@@ -1,3 +1,10 @@
+/// Comapares a BIG number to a simple integer and returns the result
+/// 
+/// This function will return one of the following:
+///   BIG.GREATER = the BIG number is greater than the simple integer
+///   BIG.EQUAL   = the BIG number is equal to the simple integer
+///   BIG.LESSER  = the BIG number is lesser than the simple integer
+/// 
 /// @param x
 /// @param int32
 

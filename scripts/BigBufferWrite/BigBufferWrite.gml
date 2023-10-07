@@ -1,3 +1,5 @@
+/// Writes a BIG number to a buffer
+/// 
 /// @param buffer
 /// @param x
 /// @param [bigEndian=true]  Most significant byte comes first

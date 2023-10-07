@@ -1,10 +1,21 @@
+/// Multiplies two BIG numbers and returns the result
+/// 
+/// How this function returns is determined by the "writeTo" argument:
+///   writeTo = undefined:     A new BIG container is generated and returned
+///   writeTo = 0:             BIG number "a" is used to hold the resulting value, and "a" is returned by the function
+///   writeTo = 1:             BIG number "b" is used to hold the resulting value, and "b" is returned by the function
+///   writeTo = <BIG number>:  The result overwrites the target BIG number
+/// 
 /// @param x
 /// @param y
+/// @param [writeTo]
 
-function BigMul(_x, _y)
+function BigMul(_x, _y, _writeTo = undefined)
 {
-	return __BigMulInternal(_x, BigWordCount(_x),
-	                        _y, BigWordCount(_y));
+	var _result = __BigMulInternal(_x, BigWordCount(_x),
+	                               _y, BigWordCount(_y));
+    
+    __BIG_HANDLE_RESULT_POST
 }
 
 /// @param x

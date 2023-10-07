@@ -1,13 +1,18 @@
+/// Returns the greatest common divisor of "a" and "b", both BIG numbers
+/// 
 /// @param a
 /// @param b
 
 function BigGCD(_a, _b)
 {
+    static _bWork = BigZero();
+    BigCopyTo(_b, _bWork);
+    
 	while(true)
 	{
-	    var _temp = BigMod(_a, _b);
-	    if (BigIsZero(_temp)) return _b;
-	    _a = _b;
-	    _b = _temp;
+	    var _temp = BigMod(_a, _bWork);
+	    if (BigIsZero(_temp)) return _bWork;
+	    _a = _bWork;
+	    _bWork = _temp;
 	}
 }

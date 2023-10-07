@@ -1,3 +1,5 @@
+/// Converts a BIG number to a shortened string of decimal digits
+/// 
 /// @param x
 
 function BigToShortDecString(_x)

@@ -1,5 +1,6 @@
-/// Increments the value of x by 1
-/// This directly modifies x and can be used without the return e.g.
+/// Increments the value of a BIG number by 1
+/// 
+/// This directly modifies the input and can be used without the return e.g.
 ///    x = BigFromInt(3);
 ///    BigInc(x);
 ///    show_debug_message(x); //x is now 4
