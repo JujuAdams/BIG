@@ -1,5 +1,10 @@
 /// Multiplies a BIG number by itself and returns the result
 /// 
+/// How this function returns is determined by the "writeTo" argument:
+///   writeTo = undefined:     A new BIG container is generated and returned
+///   writeTo = 0:             BIG number "x" is used to hold the resulting value, and "x" is returned by the function
+///   writeTo = <BIG number>:  The result overwrites the target BIG number
+/// 
 /// @param x
 /// @param [writeTo]
 
