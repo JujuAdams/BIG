@@ -33,6 +33,23 @@ show_debug_message("BIG: Welcome to BIG Integers by @jujuadams! This is version 
                                    show_error("BIG:\n[writeTo] argument must be 0, 1, or <undefined>\n ", true);\
                                }
 
+#macro __BIG_HANDLE_RESULT_PRE_MONO if (_writeTo == 0)\
+                                    {\
+                                        var _out = _x;\
+                                    }\
+                                    else if (_writeTo == undefined)\
+                                    {\
+                                        var _out = BigZero();\
+                                    }\
+                                    else if (is_array(_writeTo))\
+                                    {\
+                                        var _out = _writeTo;\
+                                    }\
+                                    else\
+                                    {\
+                                        show_error("BIG:\n[writeTo] argument must be 0, <undefined>, or another BIG number\n ", true);\
+                                    }
+
 
 #macro __BIG_HANDLE_RESULT_POST if (_writeTo == 0)\
                                 {\
