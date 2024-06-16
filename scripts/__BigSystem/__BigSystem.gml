@@ -4,9 +4,9 @@
 /// https://github.com/kokke/tiny-bignum-c
 /// https://github.com/ilia3101/Big-Integer-C
 
-#macro __BIG_VERSION "0.3.1"
-#macro __BIG_DATE "2023-10-07"
-show_debug_message("BIG: Welcome to BIG Integers by @jujuadams! This is version " + __BIG_VERSION + ", " + __BIG_DATE);
+#macro __BIG_VERSION "1.0.1"
+#macro __BIG_DATE "2024-06-16"
+show_debug_message("BIG: Welcome to BIG Integers by Juju Adams! This is version " + __BIG_VERSION + ", " + __BIG_DATE);
 
 #macro __BIG_WORD_BITS 32
 #macro __BIG_MAX_VALUE 0xffffffff
