@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "BigToDecString",
+  "name": "BigFromDecimalString",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Converters",
-    "path": "folders/BIG Integers/Converters.yy",
+    "name": "Creators",
+    "path": "folders/BIG Integers/Creators.yy",
   },
 }

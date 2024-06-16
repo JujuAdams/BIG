@@ -2,13 +2,13 @@
 /// 
 /// @param x
 
-function BigToShortDecString(_x)
+function BigToShortDecimalString(_x)
 {
     static _suffix_array = [
         " K",  //thousand
         " M",  //million
         " B",  //billion
-        " T", //trillion
+        " T",  //trillion
         " Qd", //quadrillion
         " Qt", //quintillion
         " Sx", //sextillion
@@ -21,7 +21,7 @@ function BigToShortDecString(_x)
         " Td", //tredecillion
     ];
     
-	var _string = BigToDecString(_x);
+	var _string = BigToDecimalString(_x);
     
     var _length = string_byte_length(_string);
     if (_length <= 3) return _string;

@@ -12,7 +12,7 @@ function BigPowMod(_x, _modulus, _exponent, _debug = false)
 	_x        = BigDuplicate(_x);
 	_exponent = BigDuplicate(_exponent);
     
-	var _result = BigFromInt(1);
+	var _result = BigFromInteger(1);
     
 	BigMod(_x, _modulus, 0);
     

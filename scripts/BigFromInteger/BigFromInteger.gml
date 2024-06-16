@@ -2,7 +2,7 @@
 /// 
 /// @param x
 
-function BigFromInt(_x)
+function BigFromInteger(_x)
 {
 	var _y = BigZero();
 	_y[@ 0] = _x & __BIG_MAX_VALUE;

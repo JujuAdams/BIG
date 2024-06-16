@@ -1,4 +1,4 @@
-/// Copies a BIG number from one container to another
+/// Copies the value of a BIG number from one to another
 /// 
 /// @param source
 /// @param destination

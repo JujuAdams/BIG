@@ -42,7 +42,7 @@ function __BigMulInternal(_x, _x_words, _y, _y_words)
     
 	if (_x_words <= 0) return BigZero();
 	if (_y_words <= 0) return BigZero();
-	if ((_x_words == 1) && (_y_words == 1)) return BigFromInt(int64(_x[0])*int64(_y[0]));
+	if ((_x_words == 1) && (_y_words == 1)) return BigFromInteger(int64(_x[0])*int64(_y[0]));
     
 	var _split = max(_x_words, _y_words) div 2;
     

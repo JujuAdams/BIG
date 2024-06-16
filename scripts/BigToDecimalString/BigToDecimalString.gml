@@ -2,7 +2,7 @@
 /// 
 /// @param x
 
-function BigToDecString(_x)
+function BigToDecimalString(_x)
 {
     static _y = BigZero();
     BigCopyTo(_x, _y);

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "BigToInt",
+  "name": "BigToIntInteger",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

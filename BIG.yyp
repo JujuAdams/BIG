@@ -4,14 +4,14 @@
   "name": "BIG",
   "resources": [
     {"id":{"name":"__BigConfig","path":"scripts/__BigConfig/__BigConfig.yy",},"order":0,},
-    {"id":{"name":"BigToInt","path":"scripts/BigToInt/BigToInt.yy",},"order":1,},
-    {"id":{"name":"BigFromInt","path":"scripts/BigFromInt/BigFromInt.yy",},"order":2,},
+    {"id":{"name":"BigToIntInteger","path":"scripts/BigToIntInteger/BigToIntInteger.yy",},"order":1,},
+    {"id":{"name":"BigFromInteger","path":"scripts/BigFromInteger/BigFromInteger.yy",},"order":2,},
     {"id":{"name":"BigBufferWrite","path":"scripts/BigBufferWrite/BigBufferWrite.yy",},"order":0,},
     {"id":{"name":"BigBufferRead","path":"scripts/BigBufferRead/BigBufferRead.yy",},"order":1,},
-    {"id":{"name":"BigToDecString","path":"scripts/BigToDecString/BigToDecString.yy",},"order":2,},
+    {"id":{"name":"BigToDecimalString","path":"scripts/BigToDecimalString/BigToDecimalString.yy",},"order":2,},
     {"id":{"name":"__BigLShiftWord","path":"scripts/__BigLShiftWord/__BigLShiftWord.yy",},"order":1,},
-    {"id":{"name":"BigToShortDecString","path":"scripts/BigToShortDecString/BigToShortDecString.yy",},"order":3,},
-    {"id":{"name":"BigFromDecString","path":"scripts/BigFromDecString/BigFromDecString.yy",},"order":3,},
+    {"id":{"name":"BigToShortDecimalString","path":"scripts/BigToShortDecimalString/BigToShortDecimalString.yy",},"order":3,},
+    {"id":{"name":"BigFromDecimalString","path":"scripts/BigFromDecimalString/BigFromDecimalString.yy",},"order":3,},
     {"id":{"name":"BigDec","path":"scripts/BigDec/BigDec.yy",},"order":0,},
     {"id":{"name":"BigInc","path":"scripts/BigInc/BigInc.yy",},"order":1,},
     {"id":{"name":"BigAdd","path":"scripts/BigAdd/BigAdd.yy",},"order":2,},
@@ -71,12 +71,12 @@
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"BIG Integers","folderPath":"folders/BIG Integers.yy","order":1,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"(System)","folderPath":"folders/BIG Integers/(System).yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Arithmetic","folderPath":"folders/BIG Integers/Arithmetic.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Converters","folderPath":"folders/BIG Integers/Converters.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Creators","folderPath":"folders/BIG Integers/Creators.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Int32 Operations","folderPath":"folders/BIG Integers/Int32 Operations.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Logical & Bitwise","folderPath":"folders/BIG Integers/Logical & Bitwise.yy","order":6,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"(System)","folderPath":"folders/BIG Integers/(System).yy","order":7,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
@@ -86,6 +86,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.0.1.31",
+    "IDEVersion": "2022.0.2.51",
   },
 }

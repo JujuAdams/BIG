@@ -35,7 +35,7 @@ function __BigSqrInternal(_x, _words)
 	///   + k
     
 	if (_words <= 0) return BigZero();
-	if (_words == 1) return BigFromInt(int64(_x[0])*int64(_x[0]));
+	if (_words == 1) return BigFromInteger(int64(_x[0])*int64(_x[0]));
     
 	var _split = _words div 2;
     

@@ -2,7 +2,7 @@
 /// 
 /// @param string
 
-function BigFromDecString(_string)
+function BigFromDecimalString(_string)
 {
 	var _x = BigZero();
 	if (_string == "") return _x;

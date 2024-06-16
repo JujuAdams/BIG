@@ -1,7 +1,7 @@
 /// Decrements the value of a BIG number by 1
 /// 
 /// This directly modifies the input and can be used without the return e.g.
-///    x = BigFromInt(3);
+///    x = BigFromInteger(3);
 ///    BigDec(x);
 ///    show_debug_message(x); //x is now 2
 ///

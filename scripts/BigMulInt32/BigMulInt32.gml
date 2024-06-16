@@ -10,7 +10,7 @@ function BigMulInt32(_x, _int)
 	var _i = 0;
 	repeat(BIG_MAX_WORDS)
 	{
-	    var _temp = BigFromInt(_x[_i] * _int);
+	    var _temp = BigFromInteger(_x[_i] * _int);
 	    __BigLShiftWord(_temp, _i);
 	    BigAdd(_y, _temp, 0);
         
