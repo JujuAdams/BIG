@@ -10,9 +10,9 @@
 
 enum BIG
 {
-	GREATER,
-	LESSER,
-	EQUAL,
+	LESSER  = -1,
+	EQUAL   =  0,
+	GREATER =  1,
 }
 
 function BigCompare(_a, _b)
