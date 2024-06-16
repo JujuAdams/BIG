@@ -30,7 +30,7 @@ show_debug_message("BIG: Welcome to BIG Integers by @jujuadams! This is version 
                                }\
                                else\
                                {\
-                                   show_error("BIG:\n[writeTo] argument must be 0, 1, or <undefined>\n ", true);\
+                                   show_error("BIG:\n[writeTo] argument must be 0, 1, <undefined>, or another BIG number\n ", true);\
                                }
 
 #macro __BIG_HANDLE_RESULT_PRE_MONO if (_writeTo == 0)\

@@ -10,7 +10,7 @@
 /// @param b
 /// @param [writeTo]
 
-function BigAdd(_a, _b, _writeTo)
+function BigAdd(_a, _b, _writeTo = undefined)
 {
     __BIG_HANDLE_RESULT_PRE
     

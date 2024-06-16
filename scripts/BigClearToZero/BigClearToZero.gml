@@ -4,8 +4,6 @@
 
 function BigClearToZero(_number)
 {
-    //TODO - Optimise with new functions in GM 2022.11
-    
     var _i = 0;
     repeat(BIG_MAX_WORDS)
     {

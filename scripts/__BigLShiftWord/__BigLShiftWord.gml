@@ -1,5 +1,6 @@
 /// @param x
 /// @param words
+
 function __BigLShiftWord(_x, _words)
 {
 	var _i = BIG_MAX_WORDS - 1;
